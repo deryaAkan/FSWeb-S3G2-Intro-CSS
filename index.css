@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1000px;
+    margin: 20px auto;
+}
+nav a {
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #5ED3EB;
+    margin:10px 150px;
+    text-decoration: none;
+    display: inline;
+    vertical-align: middle;
+}
+
+nav a:first-child {
+    background-color: #FF764E;
+    margin: 10px 75px;
+    padding: 12px;
+}
+
+nav a:last-child {
+    background-color: #FFCD69;
+    margin: 10px 75px;
+}
+
+main img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+main div {
+    display: inline-block;
+    text-align: center;
+  
+    vertical-align: middle;
+    margin-left: 150px;
+}
+
+main {
+    display: block;
+    padding: 50px;
+}
+
+.kapadokya-giris {
+    width: 900px;
+    margin: auto;
+    background-color: #DDB9A3;
+    padding: 0 2pxpx;
+    color: white;
+    text-align: center;
+}
+.features div {
+    width: 30%;
+    margin: auto;
+}
+
+.features div img {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.features p {
+    text-align: center;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+footer img {
+    object-position: 100% 5%;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+
+
